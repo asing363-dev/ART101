@@ -1,0 +1,14 @@
+
+body {
+    background-image: url(https://p2.piqsels.com/preview/236/628/945/black-night-sky-stars.jpg
+    ); padding: 70px;
+    width: 3000px; height: 1900px; #mark { 
+	width: 50vw; height: 70vw;
+} 
+#eve { 
+    width: 40vw; height: 60vw;
+}
+p {
+    font-size: 2em;
+    color: rgb(255, 230, 0); width: 80vw;
+}
