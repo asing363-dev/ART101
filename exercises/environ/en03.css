@@ -1,0 +1,73 @@
+
+body {
+    background-image: url(https://static0.cbrimages.com/wordpress/wp-content/uploads/2024/12/dragon-ball-super-planet-vegeta-and-its-two-moons.jpg?q=70&fit=crop&w=825&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+    min-height: 100vh;
+}
+    
+#mark {
+    height: 50vh;
+}
+
+p {
+    font-size: 2em;
+    color: rgb(255, 230, 0);
+    text-shadow: 3px 3px 8px black;
+}
+
+#prop {
+    position: relative;
+    height: 300px;
+}
+
+#eve {
+    height: 50vh;
+    position: relative;
+    z-index: 2;
+    rotate: -2deg;
+}
+
+#INVINCIBLE {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.info-card {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: yellow;
+    border: 3px solid yellow;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.info-card h2 {
+    margin-top: 0;
+    color: white;
+}
+
+#environment-output {
+    position: fixed;
+    top: 20%;
+    right: 5%;
+    z-index: 20;
+}
+
+#ship {
+    height: 300px;
+    position: absolute;
+    z-index: 5;
+    rotate: 20deg;
+    top: 50px;
+    left: 45%;
+}
+
+.info-card {
+    pointer-events: none;
+}
